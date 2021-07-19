@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+body {
+	margin: 0 auto;
+	font-size: 1.4em; 
+}
+
+input:focus {
+	-webkit-outline: none;
+	-moz-outline: none;
+	outline: none;
+}
+
+#vertical_radio {
+	display: flex;
+	flex-direction: column;
+}
+
+#vertical_radio .radio_group {
+	list-style-type: none;
+}
+
+#vertical_radio .radio_group .list {
+	padding: 30px auto;
+}
+
+#vertical_radio .security {
+	display: inline-block;
+	margin: 30px 50px;
+}
+
+#vertical_radio .buttons {
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+}
+
+#vertical_radio .buttons .send_button {
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 140px;
+	height: 40px;
+}
+
+#vertical_radio .buttons .cancel_button {
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 140px;
+	height: 40px;
+}
